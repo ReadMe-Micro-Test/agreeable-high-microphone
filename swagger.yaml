@@ -584,8 +584,7 @@ components:
           type: integer
           format: int64
         petId:
-          type: integer
-          format: int64
+          type: string
         quantity:
           type: integer
           format: int32
@@ -687,6 +686,7 @@ components:
             - available
             - pending
             - sold
+            - finished
       xml:
         name: Pet
     ApiResponse:
